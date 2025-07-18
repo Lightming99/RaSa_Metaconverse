@@ -4,11 +4,11 @@ from datetime import datetime
 
 class Config:
     # API Configuration
-    GROQ_API_KEY = "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"
+    GROQ_API_KEY = "//please add groq api"
     GROQ_BASE_URL = "https://api.groq.com/openai/v1"
     GROQ_MODEL = "llama-3.1-8b-instant"
     
-    GEMINI_API_KEY = "AIzaSyBbIfLAWs5TuA0ID0l1KIeTXM9y2eQLzds"
+    GEMINI_API_KEY = "PLEASE ADD GEMINI API HERE"
     GEMINI_MODEL = "gemini-2.5-flash"
     
     # Rasa Configuration
