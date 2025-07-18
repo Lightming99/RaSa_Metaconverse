@@ -1,0 +1,746 @@
+[
+  {
+    "id": "20250718_095744_638304",
+    "timestamp": "2025-07-18T09:57:44.638304",
+    "type": "Admin",
+    "message": "Logs cleared"
+  },
+  {
+    "id": "20250718_095749_198197",
+    "timestamp": "2025-07-18T09:57:49.198197",
+    "type": "Training",
+    "message": "Manual review processing initiated"
+  },
+  {
+    "id": "20250718_095749_203734",
+    "timestamp": "2025-07-18T09:57:49.203734",
+    "type": "Training",
+    "message": "=== STARTING FEEDBACK PROCESSING WITH AUTO-TRAINING ==="
+  },
+  {
+    "id": "20250718_095749_244083",
+    "timestamp": "2025-07-18T09:57:49.244083",
+    "type": "FeedbackManager",
+    "message": "Feedback files initialized successfully"
+  },
+  {
+    "id": "20250718_095749_283491",
+    "timestamp": "2025-07-18T09:57:49.283491",
+    "type": "Training",
+    "message": "Skipping already handled feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095749_301301",
+    "timestamp": "2025-07-18T09:57:49.301301",
+    "type": "Training",
+    "message": "Original unprocessed: 1, Truly unprocessed: 0"
+  },
+  {
+    "id": "20250718_095749_340909",
+    "timestamp": "2025-07-18T09:57:49.340909",
+    "type": "Training",
+    "message": "No truly unprocessed feedback found"
+  },
+  {
+    "id": "20250718_095749_383075",
+    "timestamp": "2025-07-18T09:57:49.383075",
+    "type": "Admin",
+    "message": "Manual review processing initiated"
+  },
+  {
+    "id": "20250718_095812_725033",
+    "timestamp": "2025-07-18T09:58:12.725033",
+    "type": "Admin",
+    "message": "Retried 1 rejected reviews"
+  },
+  {
+    "id": "20250718_095816_941426",
+    "timestamp": "2025-07-18T09:58:16.941426",
+    "type": "Training",
+    "message": "Manual review processing initiated"
+  },
+  {
+    "id": "20250718_095816_950466",
+    "timestamp": "2025-07-18T09:58:16.950466",
+    "type": "Training",
+    "message": "=== STARTING FEEDBACK PROCESSING WITH AUTO-TRAINING ==="
+  },
+  {
+    "id": "20250718_095816_985495",
+    "timestamp": "2025-07-18T09:58:16.985495",
+    "type": "FeedbackManager",
+    "message": "Feedback files initialized successfully"
+  },
+  {
+    "id": "20250718_095817_003357",
+    "timestamp": "2025-07-18T09:58:17.003357",
+    "type": "Training",
+    "message": "Original unprocessed: 2, Truly unprocessed: 2"
+  },
+  {
+    "id": "20250718_095817_036714",
+    "timestamp": "2025-07-18T09:58:17.036714",
+    "type": "Training",
+    "message": "Found 2 truly unprocessed feedback entries"
+  },
+  {
+    "id": "20250718_095817_085367",
+    "timestamp": "2025-07-18T09:58:17.085367",
+    "type": "Training",
+    "message": "=== PROCESSING FEEDBACK ID: 52914e4c-1287-46c4-8708-cf3458f8cf91 ==="
+  },
+  {
+    "id": "20250718_095817_128737",
+    "timestamp": "2025-07-18T09:58:17.129250",
+    "type": "Training",
+    "message": "Processing feedback 52914e4c-1287-46c4-8708-cf3458f8cf91 with structure awareness"
+  },
+  {
+    "id": "20250718_095817_149091",
+    "timestamp": "2025-07-18T09:58:17.149091",
+    "type": "Training",
+    "message": "Structure-aware attempt 1 for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095817_189102",
+    "timestamp": "2025-07-18T09:58:17.189622",
+    "type": "Training",
+    "message": "Generating structure-matching YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095821_436476",
+    "timestamp": "2025-07-18T09:58:21.436476",
+    "type": "Training",
+    "message": "✅ Generated structure-matching YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095821_442619",
+    "timestamp": "2025-07-18T09:58:21.442619",
+    "type": "Training",
+    "message": "Validating YAML structure for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095821_467034",
+    "timestamp": "2025-07-18T09:58:21.467034",
+    "type": "Training",
+    "message": "✅ nlu section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095821_496394",
+    "timestamp": "2025-07-18T09:58:21.496394",
+    "type": "Training",
+    "message": "✅ domain section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095821_515839",
+    "timestamp": "2025-07-18T09:58:21.515839",
+    "type": "Training",
+    "message": "✅ stories section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095821_537119",
+    "timestamp": "2025-07-18T09:58:21.537119",
+    "type": "Training",
+    "message": "❌ YAML error in rules for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91: while scanning for the next token\nfound character '`' that cannot start any token\n  in \"<unicode string>\", line 7, column 1:\n    ```\n    ^"
+  },
+  {
+    "id": "20250718_095821_561428",
+    "timestamp": "2025-07-18T09:58:21.561428",
+    "type": "Training",
+    "message": "❌ Structure validation failed for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91, attempt 1: YAML syntax error in rules: while scanning for the next token\nfound character '`' that cannot start any token\n  in \"<unicode string>\", line 7, column 1:\n    ```\n    ^"
+  },
+  {
+    "id": "20250718_095821_586330",
+    "timestamp": "2025-07-18T09:58:21.586842",
+    "type": "Training",
+    "message": "Structure-aware attempt 2 for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095821_608270",
+    "timestamp": "2025-07-18T09:58:21.608270",
+    "type": "Training",
+    "message": "Generating structure-matching YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095825_896158",
+    "timestamp": "2025-07-18T09:58:25.896158",
+    "type": "Training",
+    "message": "✅ Generated structure-matching YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095825_902209",
+    "timestamp": "2025-07-18T09:58:25.902209",
+    "type": "Training",
+    "message": "Validating YAML structure for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095825_927059",
+    "timestamp": "2025-07-18T09:58:25.927059",
+    "type": "Training",
+    "message": "✅ nlu section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095825_945310",
+    "timestamp": "2025-07-18T09:58:25.945310",
+    "type": "Training",
+    "message": "✅ domain section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095825_971324",
+    "timestamp": "2025-07-18T09:58:25.971808",
+    "type": "Training",
+    "message": "✅ stories section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095826_002318",
+    "timestamp": "2025-07-18T09:58:26.002318",
+    "type": "Training",
+    "message": "❌ YAML error in rules for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91: while scanning for the next token\nfound character '`' that cannot start any token\n  in \"<unicode string>\", line 7, column 1:\n    ```\n    ^"
+  },
+  {
+    "id": "20250718_095826_026844",
+    "timestamp": "2025-07-18T09:58:26.026844",
+    "type": "Training",
+    "message": "❌ Structure validation failed for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91, attempt 2: YAML syntax error in rules: while scanning for the next token\nfound character '`' that cannot start any token\n  in \"<unicode string>\", line 7, column 1:\n    ```\n    ^"
+  },
+  {
+    "id": "20250718_095826_050270",
+    "timestamp": "2025-07-18T09:58:26.050270",
+    "type": "Training",
+    "message": "Structure-aware attempt 3 for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095826_068521",
+    "timestamp": "2025-07-18T09:58:26.069030",
+    "type": "Training",
+    "message": "Generating structure-matching YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095831_796938",
+    "timestamp": "2025-07-18T09:58:31.796938",
+    "type": "Training",
+    "message": "✅ Generated structure-matching YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095831_803567",
+    "timestamp": "2025-07-18T09:58:31.803567",
+    "type": "Training",
+    "message": "Validating YAML structure for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095831_842510",
+    "timestamp": "2025-07-18T09:58:31.842510",
+    "type": "Training",
+    "message": "✅ nlu section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095831_873543",
+    "timestamp": "2025-07-18T09:58:31.873543",
+    "type": "Training",
+    "message": "✅ domain section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095831_907591",
+    "timestamp": "2025-07-18T09:58:31.907591",
+    "type": "Training",
+    "message": "✅ stories section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095831_936841",
+    "timestamp": "2025-07-18T09:58:31.936841",
+    "type": "Training",
+    "message": "❌ YAML error in rules for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91: while scanning for the next token\nfound character '`' that cannot start any token\n  in \"<unicode string>\", line 7, column 1:\n    ```\n    ^"
+  },
+  {
+    "id": "20250718_095831_968741",
+    "timestamp": "2025-07-18T09:58:31.968741",
+    "type": "Training",
+    "message": "❌ Structure validation failed for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91, attempt 3: YAML syntax error in rules: while scanning for the next token\nfound character '`' that cannot start any token\n  in \"<unicode string>\", line 7, column 1:\n    ```\n    ^"
+  },
+  {
+    "id": "20250718_095831_998363",
+    "timestamp": "2025-07-18T09:58:31.998875",
+    "type": "Training",
+    "message": "❌ All attempts failed for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095832_024392",
+    "timestamp": "2025-07-18T09:58:32.024392",
+    "type": "Training",
+    "message": "❌ Feedback 52914e4c-1287-46c4-8708-cf3458f8cf91 failed after 3 retries"
+  },
+  {
+    "id": "20250718_095832_056455",
+    "timestamp": "2025-07-18T09:58:32.056455",
+    "type": "Training",
+    "message": "=== PROCESSING FEEDBACK ID: 52914e4c-1287-46c4-8708-cf3458f8cf91 ==="
+  },
+  {
+    "id": "20250718_095832_090578",
+    "timestamp": "2025-07-18T09:58:32.090578",
+    "type": "Training",
+    "message": "Processing feedback 52914e4c-1287-46c4-8708-cf3458f8cf91 with structure awareness"
+  },
+  {
+    "id": "20250718_095832_120548",
+    "timestamp": "2025-07-18T09:58:32.120548",
+    "type": "Training",
+    "message": "Structure-aware attempt 1 for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095832_153561",
+    "timestamp": "2025-07-18T09:58:32.153561",
+    "type": "Training",
+    "message": "Generating structure-matching YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095843_249154",
+    "timestamp": "2025-07-18T09:58:43.249154",
+    "type": "Error",
+    "message": "Structure-matching YAML generation failed for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2."
+  },
+  {
+    "id": "20250718_095843_255822",
+    "timestamp": "2025-07-18T09:58:43.255822",
+    "type": "Training",
+    "message": "❌ Failed to generate YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91, attempt 1"
+  },
+  {
+    "id": "20250718_095843_295865",
+    "timestamp": "2025-07-18T09:58:43.295865",
+    "type": "Training",
+    "message": "Structure-aware attempt 2 for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095843_316483",
+    "timestamp": "2025-07-18T09:58:43.316483",
+    "type": "Training",
+    "message": "Generating structure-matching YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095850_948499",
+    "timestamp": "2025-07-18T09:58:50.948499",
+    "type": "Training",
+    "message": "✅ Generated structure-matching YAML for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095850_955556",
+    "timestamp": "2025-07-18T09:58:50.955556",
+    "type": "Training",
+    "message": "Validating YAML structure for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095850_986965",
+    "timestamp": "2025-07-18T09:58:50.986965",
+    "type": "Training",
+    "message": "✅ nlu section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_006642",
+    "timestamp": "2025-07-18T09:58:51.006642",
+    "type": "Training",
+    "message": "✅ domain section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_034605",
+    "timestamp": "2025-07-18T09:58:51.034605",
+    "type": "Training",
+    "message": "✅ stories section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_066608",
+    "timestamp": "2025-07-18T09:58:51.066608",
+    "type": "Training",
+    "message": "✅ rules section validated for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_092000",
+    "timestamp": "2025-07-18T09:58:51.092000",
+    "type": "Training",
+    "message": "✅ All YAML structure validation passed for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_116221",
+    "timestamp": "2025-07-18T09:58:51.116221",
+    "type": "Training",
+    "message": "Starting structure-aware merge for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_145134",
+    "timestamp": "2025-07-18T09:58:51.145134",
+    "type": "Training",
+    "message": "✅ Backup created: rasa_project\\backup_20250718_095851"
+  },
+  {
+    "id": "20250718_095851_166931",
+    "timestamp": "2025-07-18T09:58:51.166931",
+    "type": "Training",
+    "message": "Structure-aware merging nlu for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_226009",
+    "timestamp": "2025-07-18T09:58:51.226009",
+    "type": "Training",
+    "message": "✅ Added NLU intent: ask_who_developed"
+  },
+  {
+    "id": "20250718_095851_277382",
+    "timestamp": "2025-07-18T09:58:51.277382",
+    "type": "Training",
+    "message": "✅ Successfully saved merged nlu for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_312712",
+    "timestamp": "2025-07-18T09:58:51.312712",
+    "type": "Training",
+    "message": "Structure-aware merging domain for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_374441",
+    "timestamp": "2025-07-18T09:58:51.374441",
+    "type": "Training",
+    "message": "✅ Added domain intent: ask_who_developed"
+  },
+  {
+    "id": "20250718_095851_383106",
+    "timestamp": "2025-07-18T09:58:51.383106",
+    "type": "Training",
+    "message": "✅ Added domain response: utter_ask_who_developed"
+  },
+  {
+    "id": "20250718_095851_419742",
+    "timestamp": "2025-07-18T09:58:51.419742",
+    "type": "Training",
+    "message": "✅ Successfully saved merged domain for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_449677",
+    "timestamp": "2025-07-18T09:58:51.449677",
+    "type": "Training",
+    "message": "Structure-aware merging stories for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_476501",
+    "timestamp": "2025-07-18T09:58:51.476501",
+    "type": "Training",
+    "message": "✅ Added story: ask_who_developed_story"
+  },
+  {
+    "id": "20250718_095851_516694",
+    "timestamp": "2025-07-18T09:58:51.516694",
+    "type": "Training",
+    "message": "✅ Successfully saved merged stories for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_538462",
+    "timestamp": "2025-07-18T09:58:51.538462",
+    "type": "Training",
+    "message": "Structure-aware merging rules for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_581933",
+    "timestamp": "2025-07-18T09:58:51.582439",
+    "type": "Training",
+    "message": "✅ Added rule: ask_who_developed_rule"
+  },
+  {
+    "id": "20250718_095851_625655",
+    "timestamp": "2025-07-18T09:58:51.625655",
+    "type": "Training",
+    "message": "✅ Successfully saved merged rules for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_692058",
+    "timestamp": "2025-07-18T09:58:51.692058",
+    "type": "Training",
+    "message": "✅ domain.yml validated"
+  },
+  {
+    "id": "20250718_095851_767236",
+    "timestamp": "2025-07-18T09:58:51.767236",
+    "type": "Training",
+    "message": "✅ nlu.yml validated"
+  },
+  {
+    "id": "20250718_095851_811982",
+    "timestamp": "2025-07-18T09:58:51.811982",
+    "type": "Training",
+    "message": "✅ stories.yml validated"
+  },
+  {
+    "id": "20250718_095851_841556",
+    "timestamp": "2025-07-18T09:58:51.841556",
+    "type": "Training",
+    "message": "✅ rules.yml validated"
+  },
+  {
+    "id": "20250718_095851_871954",
+    "timestamp": "2025-07-18T09:58:51.871954",
+    "type": "Training",
+    "message": "✅ All files validated successfully"
+  },
+  {
+    "id": "20250718_095851_922534",
+    "timestamp": "2025-07-18T09:58:51.922534",
+    "type": "Training",
+    "message": "✅ Structure-aware merge completed for feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095851_971138",
+    "timestamp": "2025-07-18T09:58:51.971138",
+    "type": "Training",
+    "message": "✅ Successfully processed feedback 52914e4c-1287-46c4-8708-cf3458f8cf91 on attempt 2"
+  },
+  {
+    "id": "20250718_095852_018138",
+    "timestamp": "2025-07-18T09:58:52.018138",
+    "type": "Training",
+    "message": "✅ Successfully processed feedback 52914e4c-1287-46c4-8708-cf3458f8cf91"
+  },
+  {
+    "id": "20250718_095852_173563",
+    "timestamp": "2025-07-18T09:58:52.173563",
+    "type": "FeedbackManager",
+    "message": "Feedback files initialized successfully"
+  },
+  {
+    "id": "20250718_095852_226077",
+    "timestamp": "2025-07-18T09:58:52.226077",
+    "type": "Feedback",
+    "message": "Marked 2 feedback entries as processed"
+  },
+  {
+    "id": "20250718_095852_268701",
+    "timestamp": "2025-07-18T09:58:52.268701",
+    "type": "Training",
+    "message": "✅ Marked 1 reviews as processed"
+  },
+  {
+    "id": "20250718_095852_295745",
+    "timestamp": "2025-07-18T09:58:52.295745",
+    "type": "Training",
+    "message": "✅ Successfully processed 1 reviews"
+  },
+  {
+    "id": "20250718_095852_359928",
+    "timestamp": "2025-07-18T09:58:52.359928",
+    "type": "Training",
+    "message": "✅ Marked 1 reviews as rejected"
+  },
+  {
+    "id": "20250718_095852_407339",
+    "timestamp": "2025-07-18T09:58:52.408366",
+    "type": "Training",
+    "message": "❌ Rejected 1 reviews after max retries"
+  },
+  {
+    "id": "20250718_095852_480627",
+    "timestamp": "2025-07-18T09:58:52.480627",
+    "type": "Training",
+    "message": "✅ Updated feedback retry counts"
+  },
+  {
+    "id": "20250718_095852_514594",
+    "timestamp": "2025-07-18T09:58:52.514594",
+    "type": "Training",
+    "message": "Review processing complete: 1 processed, 1 rejected"
+  },
+  {
+    "id": "20250718_100036_677399",
+    "timestamp": "2025-07-18T10:00:36.677399",
+    "type": "Training",
+    "message": "=== MANUAL TRAINING INITIATED ==="
+  },
+  {
+    "id": "20250718_100036_690029",
+    "timestamp": "2025-07-18T10:00:36.690029",
+    "type": "Training",
+    "message": "Found 4 processed reviews for training"
+  },
+  {
+    "id": "20250718_100036_753035",
+    "timestamp": "2025-07-18T10:00:36.753035",
+    "type": "Training",
+    "message": "✅ domain.yml validated"
+  },
+  {
+    "id": "20250718_100036_849129",
+    "timestamp": "2025-07-18T10:00:36.849129",
+    "type": "Training",
+    "message": "✅ nlu.yml validated"
+  },
+  {
+    "id": "20250718_100036_903778",
+    "timestamp": "2025-07-18T10:00:36.903778",
+    "type": "Training",
+    "message": "✅ stories.yml validated"
+  },
+  {
+    "id": "20250718_100036_954130",
+    "timestamp": "2025-07-18T10:00:36.954130",
+    "type": "Training",
+    "message": "✅ rules.yml validated"
+  },
+  {
+    "id": "20250718_100036_989128",
+    "timestamp": "2025-07-18T10:00:36.989128",
+    "type": "Training",
+    "message": "✅ All files validated successfully"
+  },
+  {
+    "id": "20250718_100037_009335",
+    "timestamp": "2025-07-18T10:00:37.009335",
+    "type": "Training",
+    "message": "Starting manual Rasa model training"
+  },
+  {
+    "id": "20250718_100349_134887",
+    "timestamp": "2025-07-18T10:03:49.134887",
+    "type": "Training",
+    "message": "✅ Manual training completed successfully"
+  },
+  {
+    "id": "20250718_100349_141455",
+    "timestamp": "2025-07-18T10:03:49.141455",
+    "type": "Training",
+    "message": "Training output: Your Rasa model is trained and saved at 'models\\20250718-100047-little-prune.tar.gz'.\n"
+  },
+  {
+    "id": "20250718_100349_178067",
+    "timestamp": "2025-07-18T10:03:49.178067",
+    "type": "Training",
+    "message": "✅ Moved 4 reviews from processed to removable"
+  },
+  {
+    "id": "20250718_100349_205327",
+    "timestamp": "2025-07-18T10:03:49.205327",
+    "type": "Training",
+    "message": "✅ Moved 4 processed reviews to removable after manual training"
+  },
+  {
+    "id": "20250718_100349_226588",
+    "timestamp": "2025-07-18T10:03:49.226588",
+    "type": "Training",
+    "message": "Restarting Rasa server"
+  },
+  {
+    "id": "20250718_100404_397910",
+    "timestamp": "2025-07-18T10:04:04.397910",
+    "type": "Training",
+    "message": "✅ Rasa server restarted"
+  },
+  {
+    "id": "20250718_100404_405120",
+    "timestamp": "2025-07-18T10:04:04.405490",
+    "type": "Admin",
+    "message": "Manual training initiated"
+  },
+  {
+    "id": "20250718_100558_703936",
+    "timestamp": "2025-07-18T10:05:58.703936",
+    "type": "System",
+    "message": "Data files initialized successfully"
+  },
+  {
+    "id": "20250718_100600_725514",
+    "timestamp": "2025-07-18T10:06:00.725514",
+    "type": "FeedbackManager",
+    "message": "Feedback files initialized successfully"
+  },
+  {
+    "id": "20250718_100600_798063",
+    "timestamp": "2025-07-18T10:06:00.798063",
+    "type": "Training",
+    "message": "Analyzed existing structure: 35 intents"
+  },
+  {
+    "id": "20250718_100637_748394",
+    "timestamp": "2025-07-18T10:06:37.748394",
+    "type": "Chat",
+    "message": "Chat saved: I forgot my password... -> Rasa"
+  },
+  {
+    "id": "20250718_100836_007581",
+    "timestamp": "2025-07-18T10:08:36.007581",
+    "type": "Chat",
+    "message": "Chat saved: who developed you?... -> Rasa"
+  },
+  {
+    "id": "20250718_100922_521314",
+    "timestamp": "2025-07-18T10:09:22.521314",
+    "type": "Chat",
+    "message": "Chat saved: my vpn is notconnecting.... -> Rasa"
+  },
+  {
+    "id": "20250718_105754_700248",
+    "timestamp": "2025-07-18T10:57:54.700248",
+    "type": "Training",
+    "message": "Manual review processing initiated"
+  },
+  {
+    "id": "20250718_105754_709281",
+    "timestamp": "2025-07-18T10:57:54.709281",
+    "type": "Training",
+    "message": "=== STARTING FEEDBACK PROCESSING WITH AUTO-TRAINING ==="
+  },
+  {
+    "id": "20250718_105754_749432",
+    "timestamp": "2025-07-18T10:57:54.749432",
+    "type": "FeedbackManager",
+    "message": "Feedback files initialized successfully"
+  },
+  {
+    "id": "20250718_105754_771066",
+    "timestamp": "2025-07-18T10:57:54.771066",
+    "type": "Training",
+    "message": "Original unprocessed: 0, Truly unprocessed: 0"
+  },
+  {
+    "id": "20250718_105754_801771",
+    "timestamp": "2025-07-18T10:57:54.801771",
+    "type": "Training",
+    "message": "No truly unprocessed feedback found"
+  },
+  {
+    "id": "20250718_105754_873301",
+    "timestamp": "2025-07-18T10:57:54.873301",
+    "type": "Admin",
+    "message": "Manual review processing initiated"
+  },
+  {
+    "id": "20250718_105757_619378",
+    "timestamp": "2025-07-18T10:57:57.619378",
+    "type": "Training",
+    "message": "Manual review processing initiated"
+  },
+  {
+    "id": "20250718_105757_629434",
+    "timestamp": "2025-07-18T10:57:57.629434",
+    "type": "Training",
+    "message": "=== STARTING FEEDBACK PROCESSING WITH AUTO-TRAINING ==="
+  },
+  {
+    "id": "20250718_105757_666870",
+    "timestamp": "2025-07-18T10:57:57.666870",
+    "type": "FeedbackManager",
+    "message": "Feedback files initialized successfully"
+  },
+  {
+    "id": "20250718_105757_692853",
+    "timestamp": "2025-07-18T10:57:57.692853",
+    "type": "Training",
+    "message": "Original unprocessed: 0, Truly unprocessed: 0"
+  },
+  {
+    "id": "20250718_105757_748446",
+    "timestamp": "2025-07-18T10:57:57.748446",
+    "type": "Training",
+    "message": "No truly unprocessed feedback found"
+  },
+  {
+    "id": "20250718_105757_768133",
+    "timestamp": "2025-07-18T10:57:57.768133",
+    "type": "Admin",
+    "message": "Manual review processing initiated"
+  }
+]

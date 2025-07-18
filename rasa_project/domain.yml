@@ -1,0 +1,167 @@
+version: '3.1'
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- ask_password_reset
+- ask_software_installation
+- ask_network_issue
+- ask_email_setup
+- ask_printer_issue
+- ask_system_slow
+- ask_backup_restore
+- ask_antivirus
+- ask_remote_access
+- ask_what_the
+- ask_what_does
+- ask_what_the_1
+- ask_work_outdated
+- ask_perplexity_better
+- ask_work_outdated_1
+- ask_perplexity_better_1
+- ask_what_the_2
+- ask_what_does_1
+- ask_what_the_3
+- ask_notepad_not
+- ask_how_check
+- ask_largest_data
+- ask_much_memory
+- ask_much_ram
+- ask_data_center_largest
+- ask_vpn_not
+- ask_forgot_password
+- ask_who_developed
+entities:
+- software_name
+- operating_system
+- email_client
+- printer_model
+slots:
+  software_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: software_name
+  operating_system:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: operating_system
+responses:
+  utter_greet:
+  - text: Hello! I'm your IT support assistant. How can I help you today?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Thank you for contacting IT support. Have a great day!
+  utter_password_reset:
+  - text: 'To reset your password: 1) Go to the login page 2) Click ''Forgot Password'' 3) Enter your email 4) Check your email for reset instructions 5) Follow the link and create a new password'
+  utter_software_installation:
+  - text: 'For software installation: 1) Download from official website only 2) Run as administrator 3) Follow installation wizard 4) Restart if prompted 5) Contact IT if you need admin rights'
+  utter_network_issue:
+  - text: 'For network issues: 1) Check cable connections 2) Restart your router/modem 3) Try connecting to different network 4) Check if other devices work 5) Run network troubleshooter'
+  utter_email_setup:
+  - text: 'For email setup: 1) Open email client 2) Go to Account Settings 3) Add new account 4) Enter email and password 5) Configure server settings if needed 6) Test send/receive'
+  utter_printer_issue:
+  - text: 'For printer issues: 1) Check power and connections 2) Restart printer 3) Check paper and ink levels 4) Update printer drivers 5) Run printer troubleshooter'
+  utter_system_slow:
+  - text: 'For slow system: 1) Close unnecessary programs 2) Restart computer 3) Check for updates 4) Run disk cleanup 5) Check available storage space 6) Scan for malware'
+  utter_backup_restore:
+  - text: 'For backup/restore: 1) Use built-in backup tools 2) Save to external drive or cloud 3) Schedule regular backups 4) Test restore process 5) Keep multiple backup copies'
+  utter_antivirus:
+  - text: 'For antivirus: 1) Keep antivirus updated 2) Run regular scans 3) Don''t disable real-time protection 4) Avoid suspicious downloads 5) Update your system regularly'
+  utter_remote_access:
+  - text: 'For remote access: 1) Use company VPN 2) Enable remote desktop if needed 3) Ensure strong passwords 4) Use 2FA when available 5) Connect only from trusted networks'
+  utter_fallback:
+  - text: I didn't understand that. Could you please rephrase your IT question?
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa. I'm here to help you with your IT support needs!
+  utter_ask_what_the:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_what_does:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_what_the_1:
+  - text: I can help you with that. Tier 1 support handles basic tech issues—like password resets, software installation, or connectivity problems—and serves as the first point of contact to troubleshoot and escalate if needed.
+  utter_ask_work_outdated:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_perplexity_better:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_work_outdated_1:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_perplexity_better_1:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_what_the_2:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_what_does_1:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_what_the_3:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_notepad_not:
+  - text: I can assist you with that IT support request. Let me help you resolve this issue.
+  utter_ask_how_check:
+  - text: I can help you with that. By domain ID you mean work login ID you can forget IT or contact the IT support for it.
+  utter_ask_largest_data:
+  - text: The largest data center in the world is the Taihu Data Center, located in Wuxi, China. It covers an area of approximately 1.2 million square feet (111,500 square meters) and has a total power capacity of 150 MW.
+  utter_ask_much_memory:
+  - text: I can help you with that. 4VCpu's and 8GB of RAM is basic requirement, But for smooth performance please consider at least 6VCpu's with 8-16GB of RAM.
+  utter_ask_much_ram:
+  - text: 'To determine the maximum RAM your system can support, you''ll need to know the type of RAM (e.g., DDR3, DDR4, DDR5) and the motherboard specifications.
+
+
+      Can you please provide me with the following information:
+
+
+      1. Your computer''s make and model
+
+      2. The type of RAM you currently have installed (if any)
+
+      3. The motherboard model (if you have access to it)
+
+
+      I''ll be happy to help you find the maximum RAM capacity your system can support.'
+  utter_ask_data_center_largest:
+  - text: The largest data center in the world is the Taihu Data Center, located in Wuxi, China. It covers an area of approximately 1.2 million square feet (111,500 square meters) and has a total power capacity of 150 MW.
+  utter_ask_vpn_not:
+  - text: "Let's troubleshoot the issue. Can you please provide more details about your VPN setup and the error message you're receiving? \n\nHere are some basic steps to check:\n\n1. Ensure your VPN software is up-to-date.\n2. Verify your VPN credentials (username and password) are correct.\n3. Check your internet connection and ensure it's stable.\n4. Try restarting your VPN software or device.\n\nIf you're still experiencing issues, please provide the error message or more details about your setup."
+  utter_ask_forgot_password:
+  - text: I can help you with that. Use self-service password reset portal at company.com/reset or contact IT support. Have your employee ID ready. New temporary password will be sent to your registered email.
+  utter_ask_who_developed:
+  - text: I am a large language model, trained by Google.
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_password_reset
+- utter_software_installation
+- utter_network_issue
+- utter_email_setup
+- utter_printer_issue
+- utter_system_slow
+- utter_backup_restore
+- utter_antivirus
+- utter_remote_access
+- utter_fallback
+- utter_ask_largest_data
+- utter_ask_much_memory
+- utter_ask_much_ram
+- utter_ask_data_center_largest
+- utter_ask_vpn_not
+- utter_ask_forgot_password
+- utter_ask_who_developed
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

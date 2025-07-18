@@ -1,0 +1,78 @@
+version: '3.1'
+stories:
+- story: ask_what_the_story
+  steps:
+  - intent: ask_what_the
+  - action: utter_ask_what_the
+- story: ask_what_does_story
+  steps:
+  - intent: ask_what_does
+  - action: utter_ask_what_does
+- story: ask_what_the_1_story
+  steps:
+  - intent: ask_what_the_1
+  - action: utter_ask_what_the_1
+- story: ask_work_outdated_story
+  steps:
+  - intent: ask_work_outdated
+  - action: utter_ask_work_outdated
+- story: ask_perplexity_better_story
+  steps:
+  - intent: ask_perplexity_better
+  - action: utter_ask_perplexity_better
+- story: ask_work_outdated_1_story
+  steps:
+  - intent: ask_work_outdated_1
+  - action: utter_ask_work_outdated_1
+- story: ask_perplexity_better_1_story
+  steps:
+  - intent: ask_perplexity_better_1
+  - action: utter_ask_perplexity_better_1
+- story: ask_what_the_2_story
+  steps:
+  - intent: ask_what_the_2
+  - action: utter_ask_what_the_2
+- story: ask_what_does_1_story
+  steps:
+  - intent: ask_what_does_1
+  - action: utter_ask_what_does_1
+- story: ask_what_the_3_story
+  steps:
+  - intent: ask_what_the_3
+  - action: utter_ask_what_the_3
+- story: ask_notepad_not_story
+  steps:
+  - intent: ask_notepad_not
+  - action: utter_ask_notepad_not
+- story: ask_how_check_story
+  steps:
+  - intent: ask_how_check
+  - action: utter_ask_how_check
+- story: ask_largest_data_story
+  steps:
+  - intent: ask_largest_data
+  - action: utter_ask_largest_data
+- story: ask_much_memory_story
+  steps:
+  - intent: ask_much_memory
+  - action: utter_ask_much_memory
+- story: ask_much_ram_story
+  steps:
+  - intent: ask_much_ram
+  - action: utter_ask_much_ram
+- story: ask_data_center_largest_story
+  steps:
+  - intent: ask_data_center_largest
+  - action: utter_ask_data_center_largest
+- story: ask_vpn_not_story
+  steps:
+  - intent: ask_vpn_not
+  - action: utter_ask_vpn_not
+- story: ask_forgot_password_story
+  steps:
+  - intent: ask_forgot_password
+  - action: utter_ask_forgot_password
+- story: ask_who_developed_story
+  steps:
+  - intent: ask_who_developed
+  - action: utter_ask_who_developed

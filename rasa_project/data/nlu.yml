@@ -1,0 +1,629 @@
+version: '3.1'
+nlu:
+- intent: greet
+  examples: '- hey
+
+    - hello
+
+    - hi
+
+    - hello there
+
+    - good morning
+
+    - good evening
+
+    - moin
+
+    - hey there
+
+    - let''s go
+
+    - hey dude
+
+    - goodmorning
+
+    - goodevening
+
+    - good afternoon
+
+
+    - hi
+
+    - hello
+
+    - hey there
+
+    - good morning
+
+    - good evening
+
+    '
+- intent: goodbye
+  examples: '- cu
+
+    - good by
+
+    - cee you later
+
+    - good night
+
+    - bye
+
+    - goodbye
+
+    - have a nice day
+
+    - see you around
+
+    - bye bye
+
+    - see you later
+
+    - thanks bye
+
+    - thank you goodbye
+
+
+    - bye
+
+    - goodbye
+
+    - see you later
+
+    - talk to you soon
+
+    - I''m done
+
+    '
+- intent: affirm
+  examples: '- yes
+
+    - y
+
+    - indeed
+
+    - of course
+
+    - that sounds good
+
+    - correct
+
+    - yes please
+
+    - sure
+
+    - absolutely
+
+    - yeah
+
+    - yep
+
+    - ok
+
+    - okay
+
+    '
+- intent: deny
+  examples: '- no
+
+    - n
+
+    - never
+
+    - I don''t think so
+
+    - don''t like that
+
+    - no way
+
+    - not really
+
+    - nope
+
+    - no thanks
+
+    - not interested
+
+    '
+- intent: mood_great
+  examples: '- perfect
+
+    - great
+
+    - amazing
+
+    - feeling like a king
+
+    - wonderful
+
+    - I am feeling very good
+
+    - I am great
+
+    - I am amazing
+
+    - I am going to save the world
+
+    - super stoked
+
+    - extremely good
+
+    - so so perfect
+
+    - so good
+
+    - so perfect
+
+    '
+- intent: mood_unhappy
+  examples: '- my day was horrible
+
+    - I am sad
+
+    - I don''t feel very well
+
+    - I am disappointed
+
+    - super sad
+
+    - I''m so sad
+
+    - sad
+
+    - very sad
+
+    - unhappy
+
+    - not good
+
+    - not very good
+
+    - extremly sad
+
+    - so saad
+
+    - so sad
+
+    '
+- intent: bot_challenge
+  examples: '- are you a bot?
+
+    - are you a human?
+
+    - am I talking to a bot?
+
+    - am I talking to a human?
+
+    - what are you?
+
+    - who are you?
+
+    - are you real?
+
+    - are you artificial?
+
+    '
+- intent: ask_password_reset
+  examples: '- I forgot my password
+
+    - how to reset password
+
+    - reset my password
+
+    - password reset
+
+    - I can''t login
+
+    - forgot password
+
+    - password help
+
+    - login issues
+
+    - can''t access my account
+
+    - password expired
+
+    - locked out of account
+
+    '
+- intent: ask_software_installation
+  examples: '- how to install software
+
+    - software installation
+
+    - install program
+
+    - how to install application
+
+    - software setup
+
+    - install new software
+
+    - program installation help
+
+    - can''t install software
+
+    - installation failed
+
+    - software won''t install
+
+
+    - can i install games in my work system?
+
+    - is it okay to put personal software on my company laptop?
+
+    - am I allowed to download non-work apps here?
+
+    - can I install Steam on my office computer?
+
+    - What''s the policy on installing third-party programs?
+
+    - Can I download non-business software?
+
+    - Is it permitted to install personal tools on my work device?
+
+    '
+- intent: ask_network_issue
+  examples: '- no internet connection
+
+    - network problems
+
+    - can''t connect to internet
+
+    - wifi not working
+
+    - internet down
+
+    - connection issues
+
+    - network error
+
+    - no network access
+
+    - internet slow
+
+    - can''t connect to network
+
+    '
+- intent: ask_email_setup
+  examples: '- email setup
+
+    - configure email
+
+    - email configuration
+
+    - set up email account
+
+    - email not working
+
+    - email setup help
+
+    - how to setup email
+
+    - email client setup
+
+    - outlook setup
+
+    - email problems
+
+    '
+- intent: ask_printer_issue
+  examples: '- printer not working
+
+    - printer problems
+
+    - can''t print
+
+    - printer offline
+
+    - printer error
+
+    - print issues
+
+    - printer help
+
+    - printer won''t print
+
+    - printer setup
+
+    - printer not responding
+
+    '
+- intent: ask_system_slow
+  examples: '- computer slow
+
+    - system running slow
+
+    - slow performance
+
+    - computer freezing
+
+    - system lag
+
+    - slow computer
+
+    - performance issues
+
+    - computer not responding
+
+    - system hanging
+
+    - slow startup
+
+    '
+- intent: ask_backup_restore
+  examples: '- backup files
+
+    - restore backup
+
+    - data backup
+
+    - backup help
+
+    - how to backup
+
+    - restore files
+
+    - backup system
+
+    - data recovery
+
+    - backup solution
+
+    - file backup
+
+    '
+- intent: ask_antivirus
+  examples: '- antivirus help
+
+    - virus protection
+
+    - malware scan
+
+    - antivirus software
+
+    - virus removal
+
+    - security scan
+
+    - infected computer
+
+    - antivirus update
+
+    - virus issues
+
+    - malware removal
+
+    '
+- intent: ask_remote_access
+  examples: '- remote access
+
+    - work from home
+
+    - remote desktop
+
+    - VPN help
+
+    - remote connection
+
+    - access work computer
+
+    - remote login
+
+    - VPN setup
+
+    - remote work
+
+    - connect remotely
+
+    '
+- intent: ask_what_the
+  examples: '- What is the difference between a virtual CPU (vCPU) and a physical CPU core?
+
+    - Can you help me with what is the difference between a virtual cpu (vcpu) and a physical cpu core?
+
+    - I need assistance with what is the difference between a virtual cpu (vcpu) and a physical cpu core?
+
+    - How do I resolve what is the difference between a virtual cpu (vcpu) and a physical cpu core?
+
+    '
+- intent: ask_what_does
+  examples: '- What does DirectX do in gaming systems?
+
+    - Can you help me with what does directx do in gaming systems?
+
+    - I need assistance with what does directx do in gaming systems?
+
+    - How do I resolve what does directx do in gaming systems?
+
+    '
+- intent: ask_what_the_1
+  examples: '- What is the role of Tier 1 IT support?
+
+    - Can you help me with what is the role of tier 1 it support?
+
+    - I need assistance with what is the role of tier 1 it support?
+
+    - How do I resolve what is the role of tier 1 it support?
+
+    '
+- intent: ask_work_outdated
+  examples: '- My work PC is outdated how to get it?
+
+    - Can you help me with my work pc is outdated how to get it?
+
+    - I need assistance with my work pc is outdated how to get it?
+
+    - How do I resolve my work pc is outdated how to get it?
+
+    '
+- intent: ask_perplexity_better
+  examples: '- is perplexity AI better from claude and openai
+
+    - Can you help me with is perplexity ai better from claude and openai
+
+    - I need assistance with is perplexity ai better from claude and openai
+
+    - How do I resolve is perplexity ai better from claude and openai
+
+    '
+- intent: ask_work_outdated_1
+  examples: '- My work PC is outdated how to get it?
+
+    - Can you help me with my work pc is outdated how to get it?
+
+    - I need assistance with my work pc is outdated how to get it?
+
+    - How do I resolve my work pc is outdated how to get it?
+
+    '
+- intent: ask_perplexity_better_1
+  examples: '- is perplexity AI better from claude and openai
+
+    - Can you help me with is perplexity ai better from claude and openai
+
+    - I need assistance with is perplexity ai better from claude and openai
+
+    - How do I resolve is perplexity ai better from claude and openai
+
+    '
+- intent: ask_what_the_2
+  examples: '- What is the difference between a virtual CPU (vCPU) and a physical CPU core?
+
+    - Can you help me with what is the difference between a virtual cpu (vcpu) and a physical cpu core?
+
+    - I need assistance with what is the difference between a virtual cpu (vcpu) and a physical cpu core?
+
+    - How do I resolve what is the difference between a virtual cpu (vcpu) and a physical cpu core?
+
+    '
+- intent: ask_what_does_1
+  examples: '- What does DirectX do in gaming systems?
+
+    - Can you help me with what does directx do in gaming systems?
+
+    - I need assistance with what does directx do in gaming systems?
+
+    - How do I resolve what does directx do in gaming systems?
+
+    '
+- intent: ask_what_the_3
+  examples: '- What is the role of Tier 1 IT support?
+
+    - Can you help me with what is the role of tier 1 it support?
+
+    - I need assistance with what is the role of tier 1 it support?
+
+    - How do I resolve what is the role of tier 1 it support?
+
+    '
+- intent: ask_notepad_not
+  examples: '- notepad is not opening in my work system
+
+    - Can you help me with notepad is not opening in my work system
+
+    - I need assistance with notepad is not opening in my work system
+
+    - How do I resolve notepad is not opening in my work system
+
+    '
+- intent: ask_how_check
+  examples: '- how to check my domain ID?
+
+    - Can you help me with how to check my domain id?
+
+    - I need assistance with how to check my domain id?
+
+    - How do I resolve how to check my domain id?
+
+    '
+- intent: ask_largest_data
+  examples: '- largest data center of the world
+
+    - What is the largest data center?
+
+    - Tell me about the biggest data center globally.
+
+    - Where is the world''s largest data center located?
+
+    - Can you tell me about the largest data center?'
+- intent: ask_much_memory
+  examples: '- how much memory you can consume at a time?
+
+    - Can you help me with how much memory you can consume at a time?
+
+    - I need assistance with how much memory you can consume at a time?
+
+    - How do I resolve how much memory you can consume at a time?'
+- intent: ask_much_ram
+  examples: '- How much RAM my system can support?
+
+    - What''s the maximum RAM my computer can handle?
+
+    - How much memory can I install in my PC?
+
+    - What''s the RAM limit for my system?
+
+    - Can you tell me the max RAM capacity?
+
+    - What is the maximum amount of RAM my system supports?
+
+    - How much memory can my laptop take?'
+- intent: ask_data_center_largest
+  examples: '- largest data center of the world
+
+    - what is the biggest data center
+
+    - where is the largest data center located
+
+    - tell me about the world''s largest data center
+
+    - which data center is the largest'
+- intent: ask_vpn_not
+  examples: '- My Vpn is not connecting
+
+    - Can you help me with my vpn is not connecting
+
+    - I need assistance with my vpn is not connecting
+
+    - How do I resolve my vpn is not connecting
+
+    - My VPN won''t connect
+
+    - I can''t get my VPN to work
+
+    - VPN connection failed
+
+    - Having trouble connecting to VPN'
+- intent: ask_forgot_password
+  examples: '- I forgot my password
+
+    - Can you help me with my forgotten password
+
+    - I need assistance with resetting my password
+
+    - How do I resolve a forgotten password
+
+    - My password is lost
+
+    - I can''t log in because I forgot my password
+
+    - Password reset
+
+    - Help with password
+
+    - Lost my password'
+- intent: ask_who_developed
+  examples: '- who developed you?
+
+    - Can you tell me who created you?
+
+    - Who is your creator?
+
+    - Who made you?
+
+    - By whom were you developed?
+
+    - Who built you?'

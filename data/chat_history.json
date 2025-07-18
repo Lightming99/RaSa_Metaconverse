@@ -1,0 +1,267 @@
+[
+  {
+    "id": "0b9c8a6e-46be-47cc-a1c3-b295b6ed5b49",
+    "timestamp": "2025-07-18T03:30:58.706988",
+    "user_query": "hello",
+    "bot_response": "Hello! I'm your IT support assistant. How can I help you today?",
+    "confidence": 0.99934321641922,
+    "model_source": "Rasa"
+  },
+  {
+    "id": "e332b5f0-d78f-4be5-aa89-eccc24b8e222",
+    "timestamp": "2025-07-18T03:33:03.508594",
+    "user_query": "how to install games in my work system?",
+    "bot_response": "Installing games on a work system is generally not recommended due to security and company policy concerns. However, if you have permission from your IT department, here are the general steps:\n\n1. Check with your IT department to ensure it's allowed and to get any necessary permissions.\n2. Ensure your work system meets the game's system requirements.\n3. Download the game from a trusted source (e.g., official website or Steam).\n4. Run the installer and follow the prompts to install the game.\n5. If you encounter any issues, contact your IT department for assistance.\n\nPlease note that installing games on a work system may also require additional steps, such as:\n- Creating a separate user account for gaming\n- Configuring firewall and antivirus settings\n-",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "f05b67ef-4157-4f68-bbcd-04c6db05a3e9",
+    "timestamp": "2025-07-18T03:37:06.335366",
+    "user_query": "can refresh on windows optimize my pc?",
+    "bot_response": "Yes, the \"Refresh your PC\" option in Windows can help optimize your PC by:\n\n1. Removing installed apps and drivers\n2. Resetting Windows settings to default\n3. Cleaning up temporary files and system logs\n\nHowever, it will also:\n\n1. Remove your personal files and settings\n2. Reinstall Windows, but keep your personal files\n\nIf you want to keep your personal files, use the \"Reset your PC\" option instead, which will:\n\n1. Remove installed apps and drivers\n2. Reset Windows settings to default\n3. Keep your personal files\n\nTo access these options, go to Settings > Update & Security > Recovery.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 03:53:22",
+    "user_query": " can refresh on windows optimize my pc?",
+    "bot_response": "Yes, refreshing Windows can optimize your PC. Here's how:\n\n1. Go to Settings > Update & Security > Recovery.\n2. Click \"Get started\" under \"Reset this PC.\"\n3. Choose \"Keep my files\" to keep your personal files, or \"Remove everything\" to start from scratch.\n4. Follow the on-screen instructions to complete the refresh process.\n\nThis will reinstall Windows and remove any unnecessary files, which can help improve performance.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 03:56:26",
+    "user_query": "hello",
+    "bot_response": "Hello! I'm your IT support assistant. How can I help you today?",
+    "confidence": 0.99934321641922,
+    "model_source": "Rasa"
+  },
+  {
+    "timestamp": "2025-07-18 03:56:59",
+    "user_query": "can i install games in my work system?",
+    "bot_response": "It's generally not recommended to install games on a work system, as they can:\n\n1. Slow down the computer\n2. Increase the risk of malware\n3. Potentially breach company policies\n\nCheck with your IT department or supervisor to see if there are any specific policies or restrictions on installing non-work-related software.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 04:01:24",
+    "user_query": "can i install games in my work system?",
+    "bot_response": "It's generally not recommended to install games on a work system, as it can:\n\n1. Compromise company data security\n2. Slow down system performance\n3. Create conflicts with company-approved software\n\nCheck with your IT department or supervisor to see if there are any exceptions or approved gaming policies in place.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 04:03:09",
+    "user_query": " can refresh on windows optimize my pc?",
+    "bot_response": "Yes, refreshing Windows can optimize your PC. Here's how:\n\n1. Go to Settings > Update & Security > Recovery.\n2. Click \"Get started\" under \"Reset this PC.\"\n3. Choose \"Keep my files\" to keep your personal files, or \"Remove everything\" to start from scratch.\n4. Follow the on-screen instructions to complete the process.\n\nThis will reinstall Windows, remove unnecessary files, and update your system.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 04:21:54",
+    "user_query": "My work PC is outdated how to get it?",
+    "bot_response": "To determine if your work PC is outdated, I'd need more information. Can you please provide the following details:\n\n1. Operating System (Windows, macOS, or Linux)?\n2. Processor model and speed?\n3. RAM (how much and what type)?\n4. What specific tasks or applications do you use on your PC?\n\nOnce I have this information, I can help you assess whether your PC is outdated and suggest potential upgrades or replacement options.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 04:59:50",
+    "user_query": "is perplexity AI better from claude and openai",
+    "bot_response": "Perplexity AI, Claude, and OpenAI are all AI models, but they serve different purposes and have distinct characteristics.\n\n- **Perplexity AI**: Known for its conversational AI model, Perplexity AI is often used for customer support and chatbots. It's designed for human-like conversations and can be integrated into various platforms.\n\n- **Claude**: Developed by Anthropic, Claude is a conversational AI model that focuses on understanding and responding to complex questions. It's designed to provide more accurate and informative answers compared to other conversational AI models.\n\n- **OpenAI**: OpenAI offers a range of AI models, including ChatGPT, which is a conversational AI model similar to Claude. However, OpenAI's models",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 05:36:13",
+    "user_query": "What is the difference between a virtual CPU (vCPU) and a physical CPU core?",
+    "bot_response": "A physical CPU core is a dedicated processing unit within a CPU, handling tasks independently. \n\nA virtual CPU (vCPU) is a software-based representation of a physical CPU core, created by a hypervisor (virtualization software) to allocate resources and manage multiple virtual machines (VMs) on a single physical host. Each vCPU can utilize a portion of a physical core's resources, allowing multiple VMs to run concurrently.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 05:36:36",
+    "user_query": "What does DirectX do in gaming systems?",
+    "bot_response": "DirectX is a set of APIs (Application Programming Interfaces) developed by Microsoft for Windows operating systems. It manages:\n\n1. Graphics rendering (Direct3D)\n2. Audio processing (DirectSound)\n3. Input devices (DirectInput)\n4. Game development tools (DirectPlay)\n\nDirectX enables game developers to create high-performance, visually stunning games by providing a standardized interface to access hardware components, such as graphics cards and sound cards.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 05:53:40",
+    "user_query": "What is the role of Tier 1 IT support?",
+    "bot_response": "Tier 1 IT support, also known as Level 1 support, is the first point of contact for users with IT-related issues. Their primary role is to:\n\n1. Answer basic technical questions\n2. Troubleshoot simple issues\n3. Provide initial assistance and guidance\n4. Escalate complex issues to Tier 2 or Tier 3 support teams.\n\nTheir goal is to resolve issues quickly and efficiently, minimizing downtime and ensuring users can continue working effectively.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 06:24:13",
+    "user_query": "notepad is not opening in my work system",
+    "bot_response": "That's frustrating. Let's troubleshoot:\n\n1. Try restarting your computer to see if it's a temporary issue.\n2. Check if Notepad is set to open with administrator privileges. Right-click on the Notepad icon, select \"Run as administrator\" to test.\n3. Ensure Notepad is not blocked by your organization's security settings. Check with your IT department if Notepad is restricted.\n4. If none of the above works, try reinstalling Notepad from the Control Panel (Add/Remove Programs) or using the Windows Store (if available).\n\nIf you're still having issues, please provide more details about your system and the error message you're seeing.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 06:25:11",
+    "user_query": "how to check my domain ID?",
+    "bot_response": "To check your domain ID, you can follow these steps:\n\n1. Log in to your domain registrar's website (e.g. GoDaddy, Namecheap).\n2. Go to the \"Domain Manager\" or \"Domain List\" section.\n3. Find your domain name and click on it.\n4. Look for the \"Domain ID\" or \"Registration ID\" field, which usually contains a unique identifier.\n\nAlternatively, you can also check your domain ID through your domain registrar's control panel or by contacting their support team directly.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 06:39:47",
+    "user_query": "how to check my domain id?",
+    "bot_response": "I can help you with that. By domain ID you mean work login ID you can forget IT or contact the IT support for it.",
+    "confidence": 0.9611729383468628,
+    "model_source": "Rasa"
+  },
+  {
+    "timestamp": "2025-07-18 07:07:42",
+    "user_query": "Hi, tell me why are build?",
+    "bot_response": "I'm an IT support specialist, and I'd be happy to help with IT-related questions. However, \"why are build?\" seems to be a general question that could relate to various fields, such as construction, software development, or architecture.\n\nCould you please provide more context or clarify what you mean by \"build\"? Is it related to software development, construction, or something else? I'll do my best to provide a helpful answer.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "timestamp": "2025-07-18 08:14:49",
+    "user_query": "My VPN is not connecting",
+    "bot_response": "Let's troubleshoot the issue. Can you please provide more details about the problem? \n\n1. What type of VPN are you using (work, personal, or a specific service like ExpressVPN)?\n2. Have you checked your internet connection and ensured it's stable?\n3. Are you receiving any error messages when trying to connect?\n4. Have you tried restarting your VPN client or app?",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "04916365-4150-480e-96e6-2e1d7615277a",
+    "timestamp": "2025-07-18T08:51:11.426617",
+    "user_query": "HELLO",
+    "bot_response": "Hello! I'm your IT support assistant. How can I help you today?",
+    "confidence": 0.9953874945640564,
+    "model_source": "Rasa"
+  },
+  {
+    "id": "5d7846ee-4c6f-448d-a0b4-14ee7674d639",
+    "timestamp": "2025-07-18T08:51:52.184651",
+    "user_query": "How much RAM my system can support?",
+    "bot_response": "To determine the maximum RAM your system can support, you'll need to know the type of RAM (e.g., DDR3, DDR4, DDR5) and the motherboard specifications.\n\nCan you please provide me with the following information:\n\n1. Your computer's make and model\n2. The type of RAM you currently have installed (if any)\n3. The motherboard model (if you have access to it)\n\nI'll be happy to help you find the maximum RAM capacity your system can support.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "e6f4ea48-9a36-4e15-90f3-0f5c33d761d9",
+    "timestamp": "2025-07-18T08:52:32.710986",
+    "user_query": "how to check my domain name",
+    "bot_response": "I can help you with that. By domain ID you mean work login ID you can forget IT or contact the IT support for it.",
+    "confidence": 0.9450708031654358,
+    "model_source": "Rasa"
+  },
+  {
+    "id": "f2d9c537-06d3-41bf-abb4-06366ced920d",
+    "timestamp": "2025-07-18T08:53:04.813832",
+    "user_query": "largest data center of the world",
+    "bot_response": "The largest data center in the world is the Taihu Data Center, located in Wuxi, China. It covers an area of approximately 1.2 million square feet (111,500 square meters) and has a total power capacity of 150 MW.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "a6521d89-68cd-4b29-a21e-24d816e9fa69",
+    "timestamp": "2025-07-18T08:53:53.914237",
+    "user_query": "do the refresh in windows potimizes the system",
+    "bot_response": "Refreshing Windows can temporarily improve system performance by:\n\n1. Closing unnecessary applications and background processes.\n2. Clearing temporary files and system cache.\n3. Updating system settings.\n\nHowever, it's a temporary fix and doesn't address underlying issues. For sustained performance, consider:\n\n1. Disk cleanup and disk defragmentation.\n2. Updating drivers and software.\n3. Disabling startup programs.\n4. Running a virus scan.\n\nFor more significant performance improvements, consider reinstalling Windows or seeking professional assistance.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "345b9678-ad83-46ae-86ca-900d1915b570",
+    "timestamp": "2025-07-18T08:55:07.140790",
+    "user_query": "what is your purpose?",
+    "bot_response": "I am a bot, powered by Rasa. I'm here to help you with your IT support needs!",
+    "confidence": 0.7164199352264404,
+    "model_source": "Rasa"
+  },
+  {
+    "id": "49f9775b-77a0-489d-8c78-ae3616dfbb59",
+    "timestamp": "2025-07-18T08:55:19.351629",
+    "user_query": "what you can do?",
+    "bot_response": "I am a bot, powered by Rasa. I'm here to help you with your IT support needs!",
+    "confidence": 0.9208411574363708,
+    "model_source": "Rasa"
+  },
+  {
+    "id": "7337c59c-d85d-4d39-8930-16a255df9c37",
+    "timestamp": "2025-07-18T08:56:10.816630",
+    "user_query": "who developed you?",
+    "bot_response": "I am a bot, powered by Rasa. I'm here to help you with your IT support needs!",
+    "confidence": 0.8867258429527283,
+    "model_source": "Rasa"
+  },
+  {
+    "id": "9434a622-7d55-46f6-8b49-c828c146ea1d",
+    "timestamp": "2025-07-18T08:58:07.456561",
+    "user_query": "how much memory you can consume at a time?",
+    "bot_response": "The amount of memory (RAM) a system can consume at a time depends on the operating system and hardware specifications. \n\nFor Windows 10, the maximum RAM limit is 128 GB for 32-bit and 2 TB for 64-bit systems. \n\nFor macOS, the maximum RAM limit is 1 TB for M1 and M2 chips, and 16 TB for Intel-based systems.\n\nFor Linux, the maximum RAM limit varies depending on the distribution and kernel version.\n\nTo check your system's current RAM usage, you can use the Task Manager (Windows) or Activity Monitor (macOS/Linux).",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "1c9e3232-b93a-4f06-9747-2c60766e412d",
+    "timestamp": "2025-07-18T09:42:56.633949",
+    "user_query": "my windows is lagging",
+    "bot_response": "To troubleshoot Windows lagging, try these steps:\n\n1. **Close unnecessary programs**: Press Ctrl + Shift + Esc to open Task Manager, and close any unused programs.\n2. **Disable startup programs**: Go to Task Manager > Startup, and disable any unnecessary programs.\n3. **Update Windows and drivers**: Ensure Windows and all drivers are up-to-date.\n4. **Check disk space**: Ensure you have enough free space on your hard drive (at least 10%).\n5. **Run a disk cleanup**: Press Win + R, type `cleanmgr`, and follow the prompts.\n\nIf the issue persists, consider:\n\n* Running a System File Checker (SFC) scan: Press Win + X, select Command Prompt (Admin),",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "86c85333-9832-4c86-9fb1-e9b93a4643a2",
+    "timestamp": "2025-07-18T09:43:50.492481",
+    "user_query": "My Vpn is not connecting",
+    "bot_response": "Let's troubleshoot the issue. Can you please provide more details about your VPN setup and the error message you're receiving? \n\nHere are some basic steps to check:\n\n1. Ensure your VPN software is up-to-date.\n2. Verify your VPN credentials (username and password) are correct.\n3. Check your internet connection and ensure it's stable.\n4. Try restarting your VPN software or device.\n\nIf you're still experiencing issues, please provide the error message or more details about your setup.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "fb130f63-df57-4775-b5b3-40584ef1907d",
+    "timestamp": "2025-07-18T09:48:00.396648",
+    "user_query": "How can i download gta5 in my System",
+    "bot_response": "To download GTA 5, follow these steps:\n\n1. **Check system requirements**: Ensure your computer meets the minimum system requirements for GTA 5 (Windows 10, 8 GB RAM, 1 GB free space, etc.).\n2. **Purchase or have a copy**: Buy GTA 5 from the Rockstar Games website or have a valid copy.\n3. **Download from Rockstar Games Launcher**: Go to the Rockstar Games Launcher website, sign in, and download the launcher.\n4. **Install and launch the launcher**: Follow the installation instructions and launch the Rockstar Games Launcher.\n5. **Download and install GTA 5**: Once the launcher is open, click on GTA 5 and follow the download and installation process.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "b04d7a8a-348c-430e-9920-5108b87398c6",
+    "timestamp": "2025-07-18T09:48:31.460487",
+    "user_query": "How can install gta 5 in my company system",
+    "bot_response": "I can't assist with installing GTA 5 on a company system. Is there something else I can help you with?",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "5de7c6c4-ae8c-4678-95ef-825c209976bd",
+    "timestamp": "2025-07-18T09:52:35.764950",
+    "user_query": "I forgot my password",
+    "bot_response": "To reset your password, please follow these steps:\n\n1. Go to the login page.\n2. Click on 'Forgot Password' or 'Reset Password'.\n3. Enter your username or email address associated with the account.\n4. Follow the instructions to reset your password.\n\nIf you need further assistance, please provide the website or application you're trying to access.",
+    "confidence": 0.9,
+    "model_source": "Groq"
+  },
+  {
+    "id": "95260090-1d23-4f45-a7cc-81158bdfa091",
+    "timestamp": "2025-07-18T10:06:37.742229",
+    "user_query": "I forgot my password",
+    "bot_response": "I can help you with that. Use self-service password reset portal at company.com/reset or contact IT support. Have your employee ID ready. New temporary password will be sent to your registered email.",
+    "confidence": 0.8761428594589233,
+    "model_source": "Rasa"
+  },
+  {
+    "id": "d23b1464-39b4-4223-b7bd-7e0227c3debd",
+    "timestamp": "2025-07-18T10:08:36.001534",
+    "user_query": "who developed you?",
+    "bot_response": "I am a large language model, trained by Google.",
+    "confidence": 0.9106829166412354,
+    "model_source": "Rasa"
+  },
+  {
+    "id": "25ddca28-4463-4de6-8113-49d81dadabfd",
+    "timestamp": "2025-07-18T10:09:22.515247",
+    "user_query": "my vpn is notconnecting.",
+    "bot_response": "Let's troubleshoot the issue. Can you please provide more details about your VPN setup and the error message you're receiving?",
+    "confidence": 0.9609494209289551,
+    "model_source": "Rasa"
+  }
+]

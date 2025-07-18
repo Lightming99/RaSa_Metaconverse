@@ -1,0 +1,98 @@
+version: '3.1'
+rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+- rule: Greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+- rule: Say goodbye anytime
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+- rule: ask_what_the_rule
+  steps:
+  - intent: ask_what_the
+  - action: utter_ask_what_the
+- rule: ask_what_does_rule
+  steps:
+  - intent: ask_what_does
+  - action: utter_ask_what_does
+- rule: ask_what_the_1_rule
+  steps:
+  - intent: ask_what_the_1
+  - action: utter_ask_what_the_1
+- rule: ask_work_outdated_rule
+  steps:
+  - intent: ask_work_outdated
+  - action: utter_ask_work_outdated
+- rule: ask_perplexity_better_rule
+  steps:
+  - intent: ask_perplexity_better
+  - action: utter_ask_perplexity_better
+- rule: ask_work_outdated_1_rule
+  steps:
+  - intent: ask_work_outdated_1
+  - action: utter_ask_work_outdated_1
+- rule: ask_perplexity_better_1_rule
+  steps:
+  - intent: ask_perplexity_better_1
+  - action: utter_ask_perplexity_better_1
+- rule: ask_what_the_2_rule
+  steps:
+  - intent: ask_what_the_2
+  - action: utter_ask_what_the_2
+- rule: ask_what_does_1_rule
+  steps:
+  - intent: ask_what_does_1
+  - action: utter_ask_what_does_1
+- rule: ask_what_the_3_rule
+  steps:
+  - intent: ask_what_the_3
+  - action: utter_ask_what_the_3
+- rule: ask_notepad_not_rule
+  steps:
+  - intent: ask_notepad_not
+  - action: utter_ask_notepad_not
+- rule: ask_how_check_rule
+  steps:
+  - intent: ask_how_check
+  - action: utter_ask_how_check
+- rule: ask_largest_data_rule
+  steps:
+  - intent: ask_largest_data
+  - action: utter_ask_largest_data
+- rule: ask_much_memory_rule
+  steps:
+  - intent: ask_much_memory
+  - action: utter_ask_much_memory
+- rule: ask_much_ram_rule
+  steps:
+  - intent: ask_much_ram
+  - action: utter_ask_much_ram
+- rule: ask_data_center_largest_rule
+  steps:
+  - intent: ask_data_center_largest
+  - action: utter_ask_data_center_largest
+- rule: ask_vpn_not_rule
+  steps:
+  - intent: ask_vpn_not
+  - action: utter_ask_vpn_not
+- rule: ask_forgot_password_rule
+  steps:
+  - intent: ask_forgot_password
+  - action: utter_ask_forgot_password
+- rule: ask_who_developed_rule
+  steps:
+  - intent: ask_who_developed
+  - action: utter_ask_who_developed

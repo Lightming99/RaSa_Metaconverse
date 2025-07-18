@@ -1,0 +1,56 @@
+Feedback ID: 5
+Output Type: prompt
+Timestamp: 2025-07-18 05:37:23
+==================================================
+Generate valid Rasa YAML training data. Follow this EXACT structure:
+
+FEEDBACK TO PROCESS:
+- User Query: "is perplexity AI better from claude and openai"
+- Feedback Type: positive
+- Issue: None
+
+REQUIREMENTS:
+- Use intent name: ask_perplexity_better_help
+- Use response name: utter_ask_perplexity_better_help
+- Create 4 sections exactly as shown below
+- Every intent/story/rule MUST start with dash (-)
+- Use exactly 2 spaces for indentation
+- No tabs allowed
+
+OUTPUT FORMAT:
+
+=== NLU_DATA ===
+version: "3.1"
+nlu:
+- intent: ask_perplexity_better_help
+  examples: |
+    - is perplexity AI better from claude and openai
+    - Can you help me with is perplexity ai better from claude and openai
+    - I need assistance with is perplexity ai better from claude and openai
+    - How do I handle is perplexity ai better from claude and openai
+
+=== DOMAIN_DATA ===
+version: "3.1"
+intents:
+  - ask_perplexity_better_help
+responses:
+  utter_ask_perplexity_better_help:
+  - text: "I'd be happy to help you with that IT issue. Let me provide you with the appropriate solution."
+
+=== STORIES_DATA ===
+version: "3.1"
+stories:
+- story: ask_perplexity_better_help_story
+  steps:
+  - intent: ask_perplexity_better_help
+  - action: utter_ask_perplexity_better_help
+
+=== RULES_DATA ===
+version: "3.1"
+rules:
+- rule: ask_perplexity_better_help_rule
+  steps:
+  - intent: ask_perplexity_better_help
+  - action: utter_ask_perplexity_better_help
+
+Generate EXACTLY this structure with the provided intent and response names.

@@ -1,0 +1,56 @@
+Feedback ID: 7
+Output Type: prompt
+Timestamp: 2025-07-18 05:37:32
+==================================================
+Generate valid Rasa YAML training data. Follow this EXACT structure:
+
+FEEDBACK TO PROCESS:
+- User Query: "What does DirectX do in gaming systems?"
+- Feedback Type: positive
+- Issue: None
+
+REQUIREMENTS:
+- Use intent name: ask_what_does_help
+- Use response name: utter_ask_what_does_help
+- Create 4 sections exactly as shown below
+- Every intent/story/rule MUST start with dash (-)
+- Use exactly 2 spaces for indentation
+- No tabs allowed
+
+OUTPUT FORMAT:
+
+=== NLU_DATA ===
+version: "3.1"
+nlu:
+- intent: ask_what_does_help
+  examples: |
+    - What does DirectX do in gaming systems?
+    - Can you help me with what does directx do in gaming systems?
+    - I need assistance with what does directx do in gaming systems?
+    - How do I handle what does directx do in gaming systems?
+
+=== DOMAIN_DATA ===
+version: "3.1"
+intents:
+  - ask_what_does_help
+responses:
+  utter_ask_what_does_help:
+  - text: "I'd be happy to help you with that IT issue. Let me provide you with the appropriate solution."
+
+=== STORIES_DATA ===
+version: "3.1"
+stories:
+- story: ask_what_does_help_story
+  steps:
+  - intent: ask_what_does_help
+  - action: utter_ask_what_does_help
+
+=== RULES_DATA ===
+version: "3.1"
+rules:
+- rule: ask_what_does_help_rule
+  steps:
+  - intent: ask_what_does_help
+  - action: utter_ask_what_does_help
+
+Generate EXACTLY this structure with the provided intent and response names.

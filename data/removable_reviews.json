@@ -1,0 +1,74 @@
+[
+  {
+    "id": "88eaa191-0985-413c-98a1-8d3d30211cf5",
+    "original_processed_timestamp": "2025-07-18 09:01:47",
+    "moved_to_removable_timestamp": "2025-07-18 09:06:53",
+    "user_query": "largest data center of the world",
+    "feedback_type": "positive",
+    "training_completed": true
+  },
+  {
+    "id": "6aa4b032-8543-4621-adac-294e445af3cb",
+    "original_processed_timestamp": "2025-07-18 09:01:47",
+    "moved_to_removable_timestamp": "2025-07-18 09:06:53",
+    "user_query": "how much memory you can consume at a time?",
+    "feedback_type": "negative",
+    "training_completed": true
+  },
+  {
+    "id": "bfe35f81-e314-4d5e-9a84-19b7b2ca1060",
+    "original_processed_timestamp": "2025-07-18 09:02:30",
+    "moved_to_removable_timestamp": "2025-07-18 09:06:53",
+    "user_query": "How much RAM my system can support?",
+    "feedback_type": "positive",
+    "training_completed": true
+  },
+  {
+    "id": "88eaa191-0985-413c-98a1-8d3d30211cf5",
+    "original_processed_timestamp": "2025-07-18 09:02:30",
+    "moved_to_removable_timestamp": "2025-07-18 09:06:53",
+    "user_query": "largest data center of the world",
+    "feedback_type": "positive",
+    "training_completed": true
+  },
+  {
+    "id": "6aa4b032-8543-4621-adac-294e445af3cb",
+    "original_processed_timestamp": "2025-07-18 09:02:30",
+    "moved_to_removable_timestamp": "2025-07-18 09:06:53",
+    "user_query": "how much memory you can consume at a time?",
+    "feedback_type": "negative",
+    "training_completed": true
+  },
+  {
+    "id": "1ae71e6e-27a0-428a-adf6-63cd2e11bb3a",
+    "original_processed_timestamp": "2025-07-18 09:55:52",
+    "moved_to_removable_timestamp": "2025-07-18 10:03:49",
+    "user_query": "My Vpn is not connecting",
+    "feedback_type": "positive",
+    "training_completed": true
+  },
+  {
+    "id": "587d02bb-fe1c-4b50-b18c-8b21aa654519",
+    "original_processed_timestamp": "2025-07-18 09:55:52",
+    "moved_to_removable_timestamp": "2025-07-18 10:03:49",
+    "user_query": "My Vpn is not connecting",
+    "feedback_type": "positive",
+    "training_completed": true
+  },
+  {
+    "id": "2e80c713-2fc0-4785-a1f3-ec1857efd2dd",
+    "original_processed_timestamp": "2025-07-18 09:55:52",
+    "moved_to_removable_timestamp": "2025-07-18 10:03:49",
+    "user_query": "I forgot my password",
+    "feedback_type": "negative",
+    "training_completed": true
+  },
+  {
+    "id": "52914e4c-1287-46c4-8708-cf3458f8cf91",
+    "original_processed_timestamp": "2025-07-18 09:58:52",
+    "moved_to_removable_timestamp": "2025-07-18 10:03:49",
+    "user_query": "who developed you?",
+    "feedback_type": "negative",
+    "training_completed": true
+  }
+]

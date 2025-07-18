@@ -1,0 +1,10 @@
+[
+  {
+    "id": "52914e4c-1287-46c4-8708-cf3458f8cf91",
+    "rejection_timestamp": "2025-07-18 09:58:52",
+    "rejection_reason": "Failed after 3 attempts",
+    "user_query": "who developed you?",
+    "feedback_type": "negative",
+    "retry_count": 3
+  }
+]
