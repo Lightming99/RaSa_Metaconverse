@@ -324,20 +324,6 @@ bash
 echo $GROQ_API_KEY
 Issue: YAML generation failures
 
-bash
-# Solution: Check logs for specific errors
-tail -f data/logs.json
-Getting Help
-📖 Documentation
-
-🐛 Issues
-
-💬 Discussions
-
-📧 Email: support@metaconverse.ai
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 🙏 Acknowledgments
 Rasa Team for the excellent conversational AI framework
